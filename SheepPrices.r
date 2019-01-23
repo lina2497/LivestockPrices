@@ -1,7 +1,6 @@
-#Load packages using pacman
-if (!require("pacman")) install.packages("pacman")
-pacman::p_load(rvest,RSelenium)
-
+lapply(list("rvest","RSelenium"), install.packages)
+library("rvest")
+library("RSelenium")
 
 ###########Deadweight Sheep Price Reporting#######
 
