@@ -21,6 +21,9 @@ Sheep_tables<-html_table(X[c(2,4)])
 View(Sheep_tables[[1]])#View one of the tables
 
 ############Weekly regional averages##########
+#This one is a bit more tricky
+
+
 URL2<-"http://beefandlamb.ahdb.org.uk/markets/auction-market-reports/weekly-gb-regional-averages/"
 
 ## Scrape the target URL out of the iframe
